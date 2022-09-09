@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-template"
+version = "0.1.0"
+description = "Template for creating FastAPI projects"
+authors = ["Pavel Vrukhin <vrukhin@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.82.0"
+pydantic = "^1.10.2"
+uvicorn = "^0.18.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
