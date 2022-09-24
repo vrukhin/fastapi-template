@@ -1,0 +1,20 @@
+{
+    "cSpell.diagnosticLevel": "Hint",
+    "workbench.colorCustomizations":
+    {
+        // will underline the entire word with dots in your chosen color
+        "editorHint.border": "#3794ff",
+        // will change the color of three dots
+        "editorHint.foreground": "#f000",
+    },
+    "cSpell.languageSettings": [
+        {
+            // use with Python files
+            "languageId": "python",
+            // Exclude code.
+            "ignoreRegExpList": [
+                "/^\\s*from.*import/gm"
+            ]
+        }
+    ],
+}
